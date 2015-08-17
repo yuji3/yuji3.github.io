@@ -15,6 +15,20 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
   <script src="http://dev.virtualearth.net/mapcontrol/mapcontrol.ashx?v=5&mkt=ja-jp" type="text/javascript"></script>
   <style>
+    table {
+      width: 300px;
+      text-align: center;
+    }
+    
+    table thead tr th {
+      text-align: center;
+      border: 1px solid black;
+    }
+    
+    table tbody td {
+      border: 1px solid black;
+    }
+    
     footer {
       border-top: dotted 1px black;
     }
@@ -43,6 +57,34 @@
       </div>
       <div id="ryoukin">
         <h3>料金</h3>
+        <table>
+          <thead>
+            <tr>
+              <th>距離</th>
+              <th>料金</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>3kmまで</td>
+              <td>1500円</td>
+            </tr>
+            <tr>
+              <td>4kmまで</td>
+              <td>1700円</td>
+            </tr>
+            <tr>
+              <td>5kmまで</td>
+              <td>1900円</td>
+            </tr>
+            <tr>
+              <td>以降500m毎</td>
+              <td>100円加算</td>
+            </tr>
+          </tbody>
+        </table>
+        <br>
+        <br>
         <p>最初の3kmまで1500円
           <br>～4kmまで1700円
           <br>～5kmまで1900円
@@ -66,7 +108,6 @@
         <br>
         <li>万が一の事故も、当社は全国運転代行共済協同組合に加入しておりますので安心です。</li>
       </ul>
-
     </div>
     <br>
 
